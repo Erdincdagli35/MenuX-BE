@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/menu")
 @CrossOrigin(origins = {"http://localhost:4200",
-                        "https://menux-be.up.railway.app"})
+                        "https://menux-be.app"})
 public class MenuController {
 
     @GetMapping("/plaj")
